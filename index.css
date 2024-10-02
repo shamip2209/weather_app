@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+    ;
+}
+
+:root {
+    --maincolor: #e4b519;
+    --content-color: #f08b06;
+}
+
+.txtcolor {
+    color: var(--maincolor);
+    
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/beautiful-shot-pink-clouds-clear-blue-sky-with-scenery-sunrise_181624-44096.jpg?t=st=1727902993~exp=1727906593~hmac=3e9ba0ff56b5129f60359a6922badf9f69963b651041bc5a284a98485113d83e&w=1060);
+    background-size: cover;
+    background-position: center;
+    height: 180vh;
+    width: 100vw;
+    margin: 0;
+
+}
+
+.content {
+
+    /* border: 2px solid orange; */
+    width: fit-content;
+}
